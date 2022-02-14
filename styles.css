@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  width: 50%;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.4em;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.card {
+    margin: 3em auto;
+    background-color : white;
+    width: 450px;
+    padding-top: 1em;
+    box-sizing: border-box;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 2.5em;
+    height: 2.5em;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+header .heading {
+    text-align: center;
+    padding: 1em 0em;
+}
+
+header .heading > * {
+    margin: 0.2em;
+}
+
+header .heading h1 {
+    font-weight: 500;
+    font-size: 2.2em;
+}
+
+main > * {
+    width: 70%;
+}
+
+.card main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info > div {
+    border: 2px solid lightgrey;
+    border-radius: 0.8em;
+    margin: 0.5em 0em;
+    padding: 0.75em;
+    color: grey;
+}
+
+.sign-up .button {
+    text-align: center;
+    color: white;
+    padding: 0.7em;
+    border-radius: 2em;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.continue {
+    background-color: hsl(0, 90%, 45%);
+}
+
+.facebook {
+    background-color: hsl(210, 100%, 50%);
+    
+}
+.sign-up .google {
+    border: 0.5px solid lightgrey;
+    color: black;   
+}
+
+.icon {
+    width: 1.8em;
+    height: 1.8em;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.icon img {
+    width: 100%;
+}
+
+.others .button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.others .button p {
+    width: 90%;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.others .facebook p {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.or {
+    text-align: center;
+    font-weight: 500;
+}
+
+.misc {
+    font-size: 0.8em;
+    color: grey;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.4em;
+    margin: 1em 0em;
+}
+
+.misc > * {
+    margin: 0.8em 0em;
+}
+
+.bold {
+    font-weight: 600;
+    color: black;
+}
+
+.card footer {
+    background-color: lightgrey;
+    width: 100%;
+    text-align: center;
+    padding: 1.2em;
+    font-weight: 600;
+    font-size: 1.2em;
+}
